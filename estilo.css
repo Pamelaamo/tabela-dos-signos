@@ -3,19 +3,30 @@
 body {
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(137, 43, 226, 0.233);
+    margin: 0px;
 
+}
+
+main {
+    background-color: rgb(138, 98, 175);
+    
+    
 }
 
 h1 {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    text-align: center;
     color: blueviolet;
-    margin-bottom: 1px;
+    margin-bottom: 25px;
 }
 
 table {
 
-border-collapse:collapse;
+    border-collapse:collapse;
+    margin: auto;
 
 }
 
@@ -53,4 +64,11 @@ tbody > tr:nth-child(even) {
 
 tbody > tr:nth-child(odd) {
     background-color: rgb(220, 182, 238);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+   
 }

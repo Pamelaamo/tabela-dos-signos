@@ -1,0 +1,56 @@
+
+
+body {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    margin-bottom: 1px;
+}
+
+table {
+
+border-collapse:collapse;
+
+}
+
+thead {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(134, 37, 163);
+    color: rgb(243, 209, 250);
+    
+    
+}
+
+td, th {
+
+    border: 1px solid black;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+td.dado {
+
+    text-align: center;
+}
+
+td.dadop {
+
+    text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+
+    background-color: rgb(202, 128, 236);
+    
+} 
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(220, 182, 238);
+}

@@ -67,6 +67,8 @@ tbody > tr:nth-child(odd) {
 }
 
 footer {
+
+    margin-top: 20px;
     padding:10px;
     background-color: black;
     color: white;
